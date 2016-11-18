@@ -69,6 +69,12 @@ nav ul li:last-child a {
 
 }
 
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 code{
   color: #000;
   background-color: #f9f9f9;
