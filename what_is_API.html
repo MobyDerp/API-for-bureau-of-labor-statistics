@@ -97,7 +97,7 @@
   <br>
     <p>If you dig a little deeper by pulling up developer tools, you will find the following about the BLS request header</p>
     <img src="images/BLS_request_header.png" alt="BLS request header"/>
-    <p>This essentially tells you that the BLS is not allowing <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">cross-origin resourse charing (CORS)</a> by <code>Access-Control-Allow-Origin:</code> . According to Wikipedia, CORS is "a mecweb page to be requested from another domain outside the domain from which the resource originated." If it did, you would have saw the following in the header </p>
+    <p>This essentially tells you that the BLS is not allowing <a href="https://en.wikipedia.org/wiki/Cross-origin_resource_sharing" target="_blank">cross-origin resourse charing (CORS)</a> by <code>Access-Control-Allow-Origin:</code> . According to Wikipedia, CORS is "mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the resource originated." If it did, you would have saw the following in the header </p>
     <pre>Access-Control-Allow-Origin: *</pre>
     <p>What does this mean for us? It means that we cannot retrieve data using AJAX and must use <em> server-side GET request </em> to retreive the data.  Therefore, we will have to delve into node js to pull the data.  But, first, we will need basic information, which are Series Id to pull the data, which will be discussed next.</p>
 
