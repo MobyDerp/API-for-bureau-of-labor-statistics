@@ -84,10 +84,10 @@
   </pre>
 
 <p>The code above is doing the following:
-  <ul>JSON.parse(body) converts the data into an organized JSON object and store that in variable <code>info</code></ul>
-  <ul>There's a header for each series to identify the information -- Ice Cream or Chedder Cheese </ul>
-  <ul>For each specific piece of data within each series, <code>info.Results.series[j].data</code> I ensure that the data period is M10, the October price, before storing the year and value in variable</uL>
-  <ul>log result to console</ul>
+  <li>JSON.parse(body) converts the data into an organized JSON object and store that in variable <code>info</code></li>
+  <li>There's a header for each series to identify the information -- Ice Cream or Chedder Cheese </li>
+  <li>For each specific piece of data within each series, <code>info.Results.series[j].data</code> I ensure that the data period is M10, the October price, before storing the year and value in variable</uL>
+  <li>log result to console</li>
   If you copy and paste the the code above and run node, you should get the following: </p>
   <img src="images/yearly_average_oct_comparison.png" alt="oct comparison"/>
 
